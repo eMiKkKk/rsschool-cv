@@ -24,7 +24,16 @@ Telegram: @eMiKkKk
 - [ ] React.js ;
 - [x] Figma, Adobe Photoshop ;
 
+## Code example (will be updated): 
 
+```
+function multiply(a, b){
+
+ return a * b
+
+};
+
+```
 
 ## Education: 
 - Russian Academy of National Economy and Public Administration
