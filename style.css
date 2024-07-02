@@ -5,4 +5,32 @@ body {
 
 a {
     text-decoration: none;
+    color: rgb(54, 54, 49);
+    font-size: 20px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+.wrapper {
+    margin: 0 auto 0 auto;
+    max-width: 1280px;
+}
+
+
+.navigation-list {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(182, 204, 197);
+}
+
+.navigation-item {
+    margin: 20px 0 20px 0;
+    padding: 5px 10px;
+    
 }
