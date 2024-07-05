@@ -40,7 +40,7 @@
         </header>
         <main>
             <section class="welcome" id="welcome">
-                <img src="#" alt="Аватарка" width="320px" height="320px">
+                <img class="avatar" src="avatar.jpg" alt="Аватарка" width="320" height="320">
                 <h1>Hi! My name is Vladislav Ermakov</h1>
             </section>  
             <section class="Aboutme" id="Aboutme">
@@ -48,10 +48,18 @@
                 <p class="Aboutme__description">I am a beginner front-end developer who is constantly improving my knowledge and skills.</p>
             </section>
             <section class="Feedback"   id="feedback">
-                <h2 class="Feedback__title">About me: </h2>
-                <a href="mailto:emikk.emikk@gmail.com">E-mail: emikk.emikk@gmail.com</a>
-                <a href="https://t.me/emikkkk">Telegram: @eMiKkKk</a>
-                <a href="https://discordapp.com/users/338294048068599808">Discord: @eMiKk</a>  
+                <h2 class="Feedback__title">Feedback: </h2>
+                <ul class="feedback__list">
+                    <li class="feedback__item">
+                        <a href="mailto:emikk.emikk@gmail.com">E-mail: emikk.emikk@gmail.com</a>
+                    </li>
+                    <li class="feedback__item">
+                        <a href="https://t.me/emikkkk">Telegram: @eMiKkKk</a>
+                    </li>
+                    <li class="feedback__item">
+                        <a href="https://discordapp.com/users/338294048068599808">Discord: @eMiKk</a>
+                    </li>
+                </ul>
             </section>
             <section class="Mystack" id="mystack">
                 <h2 class="Mystack__title">My stack</h2>
@@ -115,10 +123,15 @@ function multiply(a, b) { <br>
         <footer class="main-footer">
             <ul class="credits__list">
                 <li class="credits__item">
-                    <a href="https://eMiKkKk.github.io/rsschool-cv/cv"> CV</a>
+                    <a href="https://rs.school/courses/javascript-preschool-ru" class="credits__link">
+                        <img src="/rs-school-logo.svg" alt="логотип rs School" class="rs-logo-img">
+                    </a>
                 </li>
                 <li class="credits__item">
-                    <a href="https://eMiKkKk.github.io/rsschool-cv/cv"> CV</a>
+                    <a href="https://eMiKkKk.github.io/rsschool-cv/cv" class="credits__link"> Github: eMiKkKk</a>
+                </li>
+                <li class="credits__item">
+                    <p class="credits__year">2024</p>
                 </li>
             </ul>
         </footer>
